@@ -1,0 +1,27 @@
+post.className = "post";
+
+      post.innerHTML = `
+        <h3>New User</h3>
+        <p>${text}</p>
+        <button class="like" onclick="likePost(this)">
+          👍 Like
+        </button>
+      `;
+
+      document.getElementById("posts").prepend(post);
+
+      document.getElementById("postText").value = "";
+    }
+
+    function likePost(button) {
+      button.innerHTML = "❤️ Liked";
+    }
+  </script>
+
+</body>
+</html>
+Yes — you're in the right place. 👍
+Your filename index.html is correct. Now we need to put the first code into the empty editor.
+Step 4 — Paste this code
+Tap the large empty area below the editing controls, then paste this:
+HTML
